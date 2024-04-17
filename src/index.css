@@ -1,0 +1,21 @@
+.main-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	align-items: flex-start;
+	gap: 30px;
+	background: #f1fbff;
+	margin-top: 0;
+	padding: 100px;
+	font-family: math;
+}
+body {
+	margin: 0;
+}
+@media screen and (max-width: 767px) {
+	.main-container {
+		padding: 20px 0 0 0;
+	}
+}

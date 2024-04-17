@@ -1,0 +1,77 @@
+.config-container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: 5px 5px 15px lightgrey;
+	border-radius: 5px;
+	gap: 10px;
+	padding: 15px 15px;
+	box-sizing: border-box;
+}
+.config-container h1 {
+	margin: 0;
+	font-size: 0.9rem;
+	color: rgb(88, 88, 88);
+	text-transform: uppercase;
+}
+.checkboxes-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.checkboxes-wrapper label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 1.2rem;
+	color: rgb(100, 100, 100);
+}
+.checkboxes-wrapper label:hover {
+	background-color: rgba(135, 206, 250, 0.217);
+}
+.checkbox {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	background-color: #999;
+}
+
+.currency-buttons-wrapper button {
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: white;
+	color: #399bff;
+}
+#rub-button {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+}
+#usd-button {
+	border-right: none;
+	border-left: none;
+	border-top: 1px solid rgb(114, 114, 114);
+	border-bottom: 1px solid rgb(114, 114, 114);
+	border-right: 1px solid rgba(0, 0, 0, 0);
+	border-left: 1px solid rgba(0, 0, 0, 0);
+}
+#eur-button {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 1px solid rgb(114, 114, 114);
+}
+#rub-button:hover,
+#usd-button:hover,
+#eur-button:hover {
+	background-color: rgba(135, 206, 250, 0.217);
+	border: 1px solid #399bff;
+}
+#rub-button.selected-currency-button,
+#eur-button.selected-currency-button,
+#usd-button.selected-currency-button {
+	background-color: #399bff;
+	color: white;
+	border-color: #399bff;
+}
