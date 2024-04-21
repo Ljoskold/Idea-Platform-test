@@ -1,7 +1,3 @@
-Сделал как по ТЗ логику фильтрации билетов, подгруженных из предоставленного json файла. 
-Дизайн на глаз, как в примере. 
-От себя добавил совсем немного адаптивности, можно сделать лучше, но время поджимает. 
-Так же конвертер валюты api можно тоже подцепить, сейчас конвертит по курсы биржи на 16.04.24.
-! функцию падежей для "пересадок" тоже писать не стал.
+Render flight tickets from json file using React, and have function to sort rendered tickets by stops number, as well as convert price to 3 different currency.
 
 Live demo : https://transcendent-cobbler-7e4be6.netlify.app/
